@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:context=".MainActivity">
+    <item
+        android:id="@+id/new_game"
+        android:orderInCategory="100"
+        android:title="@string/new_game"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/gallery"
+        android:orderInCategory="100"
+        android:title="@string/gallery"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu"
+        android:orderInCategory="100"
+        android:title="@string/menu"
+        app:showAsAction="never"/>
+</menu>
